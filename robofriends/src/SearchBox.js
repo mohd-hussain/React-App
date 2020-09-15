@@ -6,11 +6,11 @@ function SearchBox({searchfield,searchChange}){
             <input
                 className="pa3 mb5 ba b--green bg-lightest-blue"
                 type="search"
-                placeholder="Search Here"
+                placeholder="Search Here" 
                 onChange={searchChange}
             />
         </div>
-    )
+    );
 }
 
 export default SearchBox;
